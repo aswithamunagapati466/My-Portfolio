@@ -1,0 +1,215 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    background:#f5f7fa;
+}
+
+/* ================= Sidebar ================= */
+
+.sidebar{
+    width:240px;
+    height:100vh;
+    background:#1e293b;
+    color:white;
+    position:fixed;
+    padding:20px;
+}
+
+.profile{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.profile img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:3px solid #38bdf8;
+    object-fit:cover;
+}
+
+.profile h2{
+    margin-top:10px;
+}
+
+.profile p{
+    color:#cbd5e1;
+}
+
+.sidebar ul{
+    list-style:none;
+    margin-top:20px;
+}
+
+.sidebar ul li{
+    margin:15px 0;
+}
+
+.sidebar ul li a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:10px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active{
+    background:#38bdf8;
+}
+
+/* ================= Main ================= */
+
+.main{
+    margin-left:260px;
+    padding:40px;
+    width:100%;
+}
+
+.main h1{
+    color:#0f172a;
+    margin-bottom:10px;
+}
+
+.intro{
+    color:#555;
+    margin-bottom:30px;
+    line-height:1.6;
+}
+
+/* ================= Skill Card ================= */
+
+.skill-card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom:30px;
+}
+
+.skill-card h2{
+    margin-bottom:20px;
+    color:#0ea5e9;
+}
+
+.skill{
+    margin-bottom:20px;
+}
+
+.skill-name{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:8px;
+    font-weight:bold;
+}
+
+.progress{
+    width:100%;
+    height:12px;
+    background:#ddd;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+/* Progress Bars */
+
+.html{
+    width:90%;
+    height:100%;
+    background:#ff5722;
+}
+
+.css{
+    width:85%;
+    height:100%;
+    background:#2196f3;
+}
+
+.js{
+    width:70%;
+    height:100%;
+    background:#facc15;
+}
+
+.python{
+    width:65%;
+    height:100%;
+    background:#16a34a;
+}
+
+/* ================= Tools ================= */
+
+.tools{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom:30px;
+}
+
+.tools h2{
+    color:#0ea5e9;
+    margin-bottom:20px;
+}
+
+.tool-box{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.tool{
+    width:150px;
+    text-align:center;
+    background:#f8fafc;
+    padding:20px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.tool:hover{
+    transform:translateY(-8px);
+}
+
+.tool i{
+    font-size:40px;
+    color:red;
+    margin-bottom:10px;
+}
+
+.tool p{
+    font-weight:bold;
+}
+
+/* ================= Learning ================= */
+
+.learning{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.learning h2{
+    color:#0ea5e9;
+    margin-bottom:15px;
+}
+
+.learning ul{
+    padding-left:20px;
+}
+
+.learning li{
+    margin-bottom:10px;
+    color:#444;
+}

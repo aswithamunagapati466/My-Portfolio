@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    display:flex;
+    background:#f5f7fa;
+}
+
+/* Sidebar */
+.sidebar{
+    width:240px;
+    height:100vh;
+    background:#1e293b;
+    position:fixed;
+    color:white;
+    padding:20px;
+}
+
+.profile{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.profile img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:3px solid #38bdf8;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+    margin:15px 0;
+}
+
+.sidebar ul li a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:10px;
+    border-radius:6px;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active{
+    background:#38bdf8;
+}
+
+/* Main */
+.main{
+    margin-left:260px;
+    padding:40px;
+}
+
+.main h1{
+    margin-bottom:10px;
+}
+
+.intro{
+    margin-bottom:30px;
+    color:#555;
+}
+
+/* Project Card (NEW DESIGN) */
+.project-card{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:white;
+
+    margin-bottom:30px;
+  
+    line-height:1.8;
+
+    padding:45px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+
+    transition:0.3s;
+
+}
+
+.project-card:hover{
+    transform:translateY(-6px);
+}
+
+/* Left text */
+.project-text{
+    width:65%;
+}
+
+.project-text h2{
+    color:#0ea5e9;
+    margin-bottom:10px;
+}
+
+.project-text p{
+    color:#444;
+    line-height:1.6;
+}
+
+/* Right image */
+.project-img{
+    width:30%;
+    display:flex;
+    justify-content:center;
+}
+
+.project-img img{
+    width:320px;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+    border:2px solid #ccc;
+}

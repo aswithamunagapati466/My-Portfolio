@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+}
+
+body{
+    display:flex;
+    background:#f5f7fa;
+}
+
+/* Sidebar */
+.sidebar{
+    width:240px;
+    height:100vh;
+    background:#1e293b;
+    color:white;
+    position:fixed;
+    padding:20px;
+}
+
+.profile{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.profile img{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:3px solid #38bdf8;
+}
+
+.profile p{
+    color:#cbd5e1;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar ul li{
+    margin:15px 0;
+}
+
+.sidebar ul li a{
+    text-decoration:none;
+    color:white;
+    display:block;
+    padding:10px;
+    border-radius:6px;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active{
+    background:#38bdf8;
+}
+
+/* Main */
+.main{
+    margin-left:260px;
+    padding:40px;
+}
+
+.main h1{
+    margin-bottom:20px;
+    color:#0f172a;
+}
+
+/* Intro */
+.intro{
+    margin-bottom:30px;
+    color:#555;
+    line-height:1.6;
+}
+
+/* Cards */
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    margin-bottom:10px;
+    color:#0ea5e9;
+}
+
+.card p, .card li{
+    color:#444;
+    line-height:1.6;
+}
+
+.card ul{
+    padding-left:20px;
+}
